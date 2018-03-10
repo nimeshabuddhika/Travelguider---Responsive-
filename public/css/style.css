@@ -30,7 +30,12 @@
     background: #5e4485;
     border: solid #fff;
 }
-
+@media (max-width: 900px) {
+    .fa{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
 @media (max-width: 600px) {
     .carousel-caption{
         display: none;
@@ -51,4 +56,22 @@
 }
 p{
     text-align: justify;
+}
+h4 a:hover, h4 a:focus{
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    background-color: #5e4485;
+    padding: 5%;
+    color: #fff;
+}
+.fa{
+    padding: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+.fa:hover,.fa:focus{
+    color: #d5d5d5;
+    text-decoration: none;
 }
