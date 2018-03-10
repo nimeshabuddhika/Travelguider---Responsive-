@@ -18,3 +18,37 @@
 .navbar-inverse .navbar-nav li a{
     color: #d5d5d5;
 }
+.carousel-caption{
+    text-transform: uppercase;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 22px;
+    background: #5e4485;
+    border: solid #fff;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption{
+        display: none;
+    }
+    .cus-icon{
+        max-width: 150px;
+    }
+    h4{
+        font-size: 1.7em;
+    }
+}
+.cus-icon{
+    max-width: 200px;
+    margin: 1% auto;
+}
+.container{
+    margin: 4% auto;
+}
+p{
+    text-align: justify;
+}
