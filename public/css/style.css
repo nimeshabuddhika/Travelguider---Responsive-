@@ -1,23 +1,23 @@
-.navbar{
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color:  #5e4485;
-    color: #fff;
-    padding: 1% 0;
-    font-size: 1.2em;
-    border: 0;
-}
-.navbar-brand{
-    min-height: 55px;
-    padding: 0 15px 5px;
-}
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
-    color: #fff;
-    background-color: #5e4485;
-}
-.navbar-inverse .navbar-nav li a{
-    color: #d5d5d5;
-}
+/*.navbar{*/
+    /*margin-bottom: 0;*/
+    /*border-radius: 0;*/
+    /*background-color:  #5e4485;*/
+    /*color: #fff;*/
+    /*padding: 1% 0;*/
+    /*font-size: 1.2em;*/
+    /*border: 0;*/
+/*}*/
+/*.navbar-brand{*/
+    /*min-height: 55px;*/
+    /*padding: 0 15px 5px;*/
+/*}*/
+/*.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{*/
+    /*color: #fff;*/
+    /*background-color: #5e4485;*/
+/*}*/
+/*.navbar-inverse .navbar-nav li a{*/
+    /*color: #d5d5d5;*/
+/*}*/
 .carousel-caption{
     text-transform: uppercase;
     top: 50%;
@@ -51,7 +51,7 @@
     max-width: 200px;
     margin: 1% auto;
 }
-.container{
+section .container{
     margin: 4% auto;
 }
 p{
@@ -66,7 +66,7 @@ footer{
     padding: 5%;
     color: #fff;
 }
-.fa{
+section .fa{
     padding: 20px;
     font-size: 25px;
     color: #fff;
